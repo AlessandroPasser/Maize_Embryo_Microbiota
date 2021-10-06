@@ -1,0 +1,13 @@
+Sample	Genotype	Code	Year	GxY
+BasiaA2017	A	A	Y2017	BasiaA2017
+BasiaA2018	A	A	Y2018	BasiaA2018
+HybridA2017	H	H	Y2017	HybridA2017
+HybridA2018	H	H	Y2018	HybridA2018
+MillocorvoA2017	C	C	Y2017	MillocorvoA2017
+MillocorvoA2018	C	C	Y2018	MillocorvoA2018
+SpinosoA2017	N	N	Y2017	SpinosoA2017
+SpinosoA2018	N	N	Y2018	SpinosoA2018
+TortoneseA2017	G	G	Y2017	TortoneseA2017
+TortoneseA2018	G	G	Y2018	TortoneseA2018
+WhiteA2017	W	W	Y2017	WhiteA2017
+WhiteA2018	W	W	Y2018	WhiteA2018
