@@ -141,6 +141,10 @@ p + ggtitle("PCoA 16S data, Unifrac distance")
 #WU distance adonis
 WU <- phyloseq::distance(Mais_data_phyloseq_prop, "unifrac", weighted= TRUE)
 adonis(WU ~ Genotype*Year, design[colnames(otu_table(Mais_data_phyloseq_prop)), ], permutations = 10000)
+                                                   
+#UU distance adonis
+UU <- phyloseq::distance(Mais_data_phyloseq_prop, "unifrac", weighted= FALSE)
+adonis(UU ~ Genotype*Year, design[colnames(otu_table(Mais_data_phyloseq_prop)), ], permutations = 10000)
 
 #############################
 #Histograms
